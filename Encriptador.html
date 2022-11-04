@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Encriptador</title>
+</head>
+<body>
+    <header>
+        <img src="Imagenes/Logo.png" alt="Logo de alura con la inicial de la letra a">
+   </header>
+    <main>
+        <section>
+            <textarea class="Ingresar-texto"
+            cols="40" rows="40"
+            placeholder="Ingrese el texto aquí"></textarea>
+            
+            <div class="Avertencia">
+                <img src="Imagenes/Vector.png" alt="Logo del Vector de Eclamación"> 
+                Solo letras minúsculas y sin acentos
+            </div>
+            
+            <div class="botones">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    <img src="Imagenes/lock-icon-11.png" alt="Logo de el candado Encriptar">
+                    Encriptar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    <img src="Imagenes/candado1.png" alt="Logo de el candado Desencriptar">
+                    Desencriptar
+                </button>
+            </div>
+        </section>
+       
+        <section class ="Logo-Principal">
+            <img src="Imagenes/criptografia-png-2.png" alt="Logo del Encriptador">
+       </section>
+        
+       
+        <section>
+            
+            <textarea class="mensaje" cols="40" rows="40" placeholder="Ingresa el texto que desees encriptar o desencriptar"></textarea> 
+            
+            <button class="copiar" onclick="copiar()">
+                <img src="Imagenes/copy-icon-25.png" alt="Logo de acción copiar">
+                Copiar
+            </button>
+       </section>
+   </main>
+   
+   <script src="script.js"></script> 
+</body>
+</html>
